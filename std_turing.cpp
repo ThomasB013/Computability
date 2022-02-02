@@ -173,7 +173,7 @@ int main() {
 		{{q1, b}, {q1, c, R}},
 		{{q1, c}, {q1, c, R}},
 		{{q2, a}, {q2, c, L}},
-		{{q2, c}, {q2, c, L}}
+		{{q2, c}, {q2, b, L}}
 		});
 	
 	std::cout << "1a)\n";
@@ -233,26 +233,27 @@ State: q2
 State: q2
 
 ###########
- aaccc  ...
+ aacbc  ...
 ###_#######
 State: q2
 
 ###########
- aaccc  ...
+ aabbc  ...
 ##_########
 State: q2
 
 ###########
- acccc  ...
+ acbbc  ...
 #_#########
 State: q2
 
 ###########
- ccccc  ...
+ ccbbc  ...
 _##########
 State: q2
 
 No transitions possible.
+
 
 1b)
 #########
@@ -291,24 +292,24 @@ State: q1
 State: q2
 
 ##########
- cccc  ...
+ cccb  ...
 ###_######
 State: q2
 
 ##########
- cccc  ...
+ ccbb  ...
 ##_#######
 State: q2
 
 ##########
- cccc  ...
+ cbbb  ...
 #_########
 State: q2
 
 ##########
- cccc  ...
+ bbbb  ...
 _#########
 State: q2
 
-No transitions possible.
+No transitions possible
 */
